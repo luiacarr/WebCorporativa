@@ -202,14 +202,21 @@ form button.btn-primary:hover {
 }
 
 .hero .slide-content p {
+    text-align: justify;
+    text-align-last: left;
     color: #170936;
     -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
     transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
-    padding: 35px 0 35px 30px;
-    background-color: rgba(255, 255, 255, 0.51);
+    padding: 35px 35px 35px 30px;
+    background-color: rgba(255, 255, 255, 0.71);
     border-top-right-radius: 100px;
     border-bottom-left-radius: 10px;
     margin-bottom: 0;
+}
+
+.sicon {
+    width: 48px;
+    height: 49px;
 }
 
 .hero .slide-content .btn {

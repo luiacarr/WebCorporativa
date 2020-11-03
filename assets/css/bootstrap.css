@@ -96,6 +96,7 @@ h6 {
 p {
     margin-top: 0;
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 abbr[title],
@@ -5392,6 +5393,7 @@ a.badge-dark.focus {
 
 .media-body {
     flex: 1;
+    text-align: justify;
 }
 
 .list-group {
